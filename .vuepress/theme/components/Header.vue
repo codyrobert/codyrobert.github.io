@@ -28,7 +28,11 @@ export default {
         },
 
         style() {
-            if ( 120 + UIData.scrollTop > UIData.windowHeight ) {
+            if ( 
+                !!UIData.scrollTop && 
+                !!UIData.windowHeight && 
+                (120 + UIData.scrollTop > UIData.windowHeight) 
+            ) {
                 return 'opacity:0;'
             }
         }

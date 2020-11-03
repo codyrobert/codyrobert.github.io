@@ -1,3 +1,8 @@
+---
+title: Full Stack Engineer
+lang: en-US
+---
+
 # Recent work
 
 <ProjectCard :primary-image="$withBase('/images/screenshot-airship-1.png')" :secondary-image="$withBase('/images/screenshot-airship-2.png')">
