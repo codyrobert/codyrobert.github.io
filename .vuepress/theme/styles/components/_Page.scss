@@ -1,0 +1,11 @@
+.Page {
+    background: $color-darkest-gray;
+    color: $color-lightest-gray;
+    padding-bottom: 192px;
+    transition: 0.4s background, 0.4s color;
+
+    &.is-inverted {
+        background: $color-lightest-gray;
+        color: $color-darkest-gray;
+    }
+}

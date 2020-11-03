@@ -1,0 +1,23 @@
+.Logo {
+	display: block;
+    flex-shrink: 0;
+    height: 40px;
+    margin: 0 0 48px;
+	position: relative;
+    transform-origin: left top;
+    width: 176px;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &.is-hidden {
+        visibility: hidden;
+    }
+
+	svg {
+		display: block;
+		max-height: 100%;
+		max-width: 100%;
+	}
+}

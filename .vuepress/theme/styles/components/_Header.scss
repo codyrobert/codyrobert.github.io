@@ -1,0 +1,16 @@
+.Header {
+    align-items: center;
+    display: flex;
+    height: 120px;
+    left: 0;
+    padding: 40px 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 0.4s opacity;
+    z-index: 20;
+
+    &.is-hidden {
+        visibility: hidden;
+    }
+}
