@@ -7,6 +7,12 @@ module.exports = {
     head: [
         ['script', {}, 'document.documentElement.classList.add(\'js\');'],
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap' }],
+        ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-6PVXQ9PJ6J' }],
+        ['script', {}, `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-6PVXQ9PJ6J');`],
     ],
 
     base: '/',
