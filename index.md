@@ -34,6 +34,8 @@ I've worked with some pretty great clients over the years in various capacities 
 </ContentBlock>
 
 <LogoGrid>
+<LogoGridItem :logo="$withBase('/images/logo-gong.svg')" to="https://www.gong.io"/>
+<LogoGridItem :logo="$withBase('/images/logo-checkr.svg')" to="https://checkr.com"/>
 <LogoGridItem :logo="$withBase('/images/logo-airship.svg')" to="https://www.airship.com"/>
 <LogoGridItem :logo="$withBase('/images/logo-flickerbox.svg')" to="https://www.flickerbox.com"/>
 <LogoGridItem :logo="$withBase('/images/logo-okta.svg')" to="https://www.okta.com"/>
@@ -44,8 +46,6 @@ I've worked with some pretty great clients over the years in various capacities 
 <LogoGridItem :logo="$withBase('/images/logo-samsung.svg')" to="https://www.samsungnext.com"/>
 <LogoGridItem :logo="$withBase('/images/logo-goodhire.svg')" to="https://www.goodhire.com"/>
 <LogoGridItem :logo="$withBase('/images/logo-rezilion.svg')" to="https://www.rezilion.com"/>
-<LogoGridItem :logo="$withBase('/images/logo-dgraph.svg')" to="https://www.dgraph.io"/>
-<LogoGridItem :logo="$withBase('images/logo-nobl9.png')" to="https://www.nobl9.com"/>
 </LogoGrid>
 
 # Let's chat
