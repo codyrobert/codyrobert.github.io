@@ -4,6 +4,12 @@ lang: en-US
 layout: PageLayout
 ---
 
+# Links
+
+<ButtonLink :to="$withBase('Cody-Baker-Resume.pdf')">My Resume</ButtonLink>
+<ButtonLink to="https://www.linkedin.com/in/codyrobert/">LinkedIn</ButtonLink>
+<ButtonLink to="https://github.com/codyrobert">Github</ButtonLink>
+
 # Recent Work
 
 This is not an exhaustive list of all of the work that I've done over the years, but rather a curated high level selection:
