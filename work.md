@@ -4,7 +4,7 @@ lang: en-US
 layout: PageLayout
 ---
 
-### Recent Work
+# Recent Work
 
 This is not an exhaustive list of all of the work that I've done over the years, but rather a curated high level selection:
 
