@@ -24,10 +24,27 @@ export default {
     computed: {
 
         isHidden() {
+			const layout = this.$page.frontmatter.layout
+
+			if (layout === 'PageLayout') {
+				return false
+			}
+
             return ( 0 !== LogoData.percent )
         },
 
         style() {
+			const layout = this.$page.frontmatter.layout
+
+			if (layout === 'PageLayout') {
+				if ( 
+					!!UIData.scrollTop && 
+					(UIData.scrollTop > 40) 
+				) {
+					return 'opacity:0;'
+				}
+			}
+
             if ( 
                 !!UIData.scrollTop && 
                 !!UIData.windowHeight && 

@@ -9,3 +9,8 @@
         color: $color-darkest-gray;
     }
 }
+
+.Page-content.is-page-layout {
+	min-height: 100vh;
+	padding-top: 180px;
+}

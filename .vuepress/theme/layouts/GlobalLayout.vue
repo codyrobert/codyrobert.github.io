@@ -2,9 +2,8 @@
     <div class="Page" :class="{ 'is-inverted': isInverted }">
 
         <Header/>
-        <TitleCard/>
+        <TitleCard v-if="$page.frontmatter.layout !== 'PageLayout'"/>
         <component :is="layout"/>
-
     </div>
 </template>
 
@@ -39,6 +38,12 @@ export default {
         },
 
         isInverted() {
+			const layout = this.$page.frontmatter.layout
+
+			if (layout === 'PageLayout') {
+				return true
+			}
+
             return ( 0 === LogoData.percent )
         },
 
